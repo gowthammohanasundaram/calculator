@@ -1,0 +1,44 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif; 
+ 
+}
+body{
+    background-color: black;
+}
+
+#calci{
+    width: 30%;
+    background-image: linear-gradient(rgb(41, 19, 182) , grey , black);
+    border: 5px solid black;
+    height: auto;
+    margin: 10% auto;
+}
+
+input[type="tel"]{
+    color: black;
+    background-image: linear-gradient(rgb(16, 19, 177) , rgb(63, 116, 156));
+    width: 98%;
+    height: 80px;
+    font-size: 45px;
+    border: 2px solid black;
+}
+
+#onOff{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+button{
+    width: 23%;
+    height: auto;
+    font-size: 45px;
+    background-image: linear-gradient(rgb(52, 21, 179) , rgb(8, 121, 155));
+    margin: 2px;
+} 
+button:hover{
+    color: brown;
+
+}
